@@ -7,7 +7,7 @@ variables:
   webRepository: 'web'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'secret'
-  WebAppName: 'Netflix'
+  WebAppName: 'netflixregistry26782'
 
 stages:
 - stage: 'Build'
