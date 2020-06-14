@@ -7,7 +7,7 @@ variables:
   webRepository: 'web'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'secret'
-  WebAppName: 'tailspin-space-game-web-dev-4960'
+  WebAppName: 'Netflix'
 
 stages:
 - stage: 'Build'
